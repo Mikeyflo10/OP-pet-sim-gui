@@ -22,6 +22,7 @@ end)
 local Tab = Window:NewTab("Pet SIm X")
 local Section = Tab:NewSection("Press To Execute Script(WAIT 25 SECONDS AFTER CLICKING)")
 Section:NewButton("Key - Press To Copy Key To Clipboard ", "Press To Copy To Clipboard", function ()
+wait (25)
     _G.AuthKey = "1756816c-f89c-44a2-a7f2-e8bc18baf720"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load.lua"))()
 end)
@@ -66,4 +67,5 @@ local Section = Tab:NewSection("Press To Execute Script")
 Section:NewButton("Shindo Life Script", "Press For Script", function ()
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Web/main/scripts/SnxwHub.txt"))()
 end)
+
 
