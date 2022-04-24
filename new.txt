@@ -27,5 +27,6 @@ Section:NewButton("Key - Press To Copy Key To Clipboard ", "Press To Copy To Cli
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load.lua"))()
 end)
 Section:NewButton("PetSimX SCRIPT", "PRESS FOR SCRIPT", function()
-    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TR1V5/TR1V5-V3/main/Main"))()
+    _G.AuthKey = "1756816c-f89c-44a2-a7f2-e8bc18baf720"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load.lua"))()
 end)
