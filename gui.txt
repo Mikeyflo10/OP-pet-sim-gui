@@ -24,6 +24,5 @@ local Section = Tab:NewSection("Press To Load Script(WAIT 25 SEC AFTER CLICK)")
 Section:NewButton("PetSimX SCRIPT", "PRESS FOR SCRIPT", function()
     loadstring(game:HttpGet"https://scriptblox.com/raw/SAZA-HUB_496")()
     wait (30)
-    _G.AuthKey = "8240272a-ce4f-4d7a-949a-433dbdebaf36"
+    _G.AuthKey = "c3ab727f-7dc2-4f68-9595-3094c00ecc5e"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load.lua"))()
-end)
