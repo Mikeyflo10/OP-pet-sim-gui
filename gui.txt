@@ -26,3 +26,4 @@ Section:NewButton("PetSimX SCRIPT", "PRESS FOR SCRIPT", function()
     wait (30)
     _G.AuthKey = "c3ab727f-7dc2-4f68-9595-3094c00ecc5e"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load.lua"))()
+end)
